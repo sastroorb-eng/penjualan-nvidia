@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/fedback.css">
+
+</head>
+<body>
+
+<h2>Feedback User</h2>
+
+<input type="text" id="nama" placeholder="Nama">
+
+<select id="pilihanVGA">
+    <option value="">Pilih VGA</option>
+    <option value="NVIDIA">NVIDIA</option>
+    <option value="AMD">AMD</option>
+</select>
+
+<textarea id="komentar" placeholder="Komentar"></textarea>
+
+<button onclick="kirimFeedback()">Kirim</button>
+
+<div id="listFeedback"></div>
+
+<script src="script.js"></script>
+<script src="js/feedback.js"></script>
+</body>
+</html>
