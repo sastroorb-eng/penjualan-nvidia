@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Layanan VGA NVIDIA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Layanan Rekomendasi VGA</h1>
+
+  <div class="container">
+    <input type="text" id="nama" placeholder="Masukkan Nama">
+
+    <select id="kebutuhan">
+      <option value="">-- Pilih Kebutuhan --</option>
+      <option value="gaming">Gaming</option>
+      <option value="office">Office</option>
+      <option value="workstation">Workstation</option>
+    </select>
+
+    <textarea id="pesan" placeholder="Pesan tambahan..."></textarea>
+
+    <button onclick="kirimPesanan()">Kirim Pesanan</button>
+
+    <div id="output"></div>
+  </div>
+
+  <h3>Pilih VGA (Opsional)</h3>
+
+<div class="checkbox-group">
+  <label><input type="checkbox" value="RTX 4090"> RTX 4090</label>
+  <label><input type="checkbox" value="RTX 4080 Super"> RTX 4080 Super</label>
+  <label><input type="checkbox" value="RTX 4070 Super"> RTX 4070 Super</label>
+
+  <label><input type="checkbox" value="RX 7800 XT"> RX 7800 XT</label>
+  <label><input type="checkbox" value="RX 6700 XT"> RX 6700 XT</label>
+  <label><input type="checkbox" value="RX 6600"> RX 6600</label>
+
+  <label><input type="checkbox" value="Intel Arc A770"> Intel Arc A770</label>
+  <label><input type="checkbox" value="Intel Arc A580"> Intel Arc A580</label>
+  <label><input type="checkbox" value="Intel Arc A380"> Intel Arc A380</label>
+</div>
+
+  <script src="js/penjualan.js"></script>
+  <link rel="stylesheet" href="css/penjualan.css">
+
+  
+</body>
+</html>

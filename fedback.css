@@ -1,0 +1,92 @@
+/* RESET dikit biar rapi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0d0d0d;
+    color: #eee;
+    padding: 15px;
+}
+
+/* Judul */
+h2 {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid #76B900;
+    font-size: 20px;
+}
+
+/* Input & form */
+input, select, textarea {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #1c1c1c;
+    color: white;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #76B900;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Box hasil */
+.nvidia, .amd {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.nvidia {
+    background: linear-gradient(135deg, #76B900, #4e7c00);
+    color: black;
+}
+
+.amd {
+    background: linear-gradient(135deg, #ED1C24, #a30000);
+}
+
+/* Hover efek */
+.nvidia:hover, .amd:hover {
+    transform: translateY(-5px);
+}
+
+/* Feedback card */
+.feedback-item {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background: #1a1a1a;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Scroll kalau banyak feedback */
+#listFeedback {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
