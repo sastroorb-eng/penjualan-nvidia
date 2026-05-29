@@ -1,0 +1,100 @@
+
+
+.konten{
+
+background:hsl(0, 0%, 0%);
+
+font-family:Arial;
+
+padding:20px;
+
+}
+
+
+
+
+
+.konten h2{
+
+color:hsl(124, 77%, 48%);
+
+margin-bottom:20px;
+
+}
+
+
+
+
+
+.tabel-vga{
+
+width:90%;
+
+margin:auto;
+
+border-collapse:collapse;
+
+background:hsl(113, 96%, 45%);
+
+border:2px solid black;
+
+}
+
+
+
+
+
+.tabel-vga th{
+
+border:2px solid black;
+
+padding:15px;
+
+background:#cccccc;
+
+font-size:18px;
+
+}
+
+
+
+
+.tabel-vga td{
+
+border:1px solid black;
+
+padding:20px;
+
+vertical-align:middle;
+
+}
+
+
+
+
+
+.tabel-vga tr{
+
+border-bottom:2px solid black;
+
+}
+
+
+
+
+
+.tabel-vga img{
+
+width:200px;
+
+}
+
+
+
+
+.tabel-vga tr:hover{
+
+background:#16871e;
+
+}
+

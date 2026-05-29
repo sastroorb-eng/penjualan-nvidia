@@ -1,0 +1,78 @@
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* INPUT & SELECT */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* BUTTON */
+button {
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* CARD HASIL VGA */
+.card {
+    background: #1e1e1e;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background: #2a2a2a;
+}
+
+/* HASIL */
+#hasil {
+    margin-top: 20px;
+}
+
+/* FEEDBACK (kalau masih dipakai) */
+.feedback-item {
+    background: #1e1e1e;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.feedback-item.nvidia {
+    border-left: 4px solid green;
+}
+
+.feedback-item.amd {
+    border-left: 4px solid red;
+}
